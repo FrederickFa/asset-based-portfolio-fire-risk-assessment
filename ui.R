@@ -174,7 +174,7 @@ approach <- tabPanel(
                       And finally, more hazards will be integrated in the tool in the future."
   ),
   br(),
-  h4("The underlying code can be found on", a("GitHub.", href = "https://github.com/FrederickFa/open-source-physical-risk-assessment-portfolio")),
+  h4("The underlying code can be found on", a("GitHub.", href = "https://github.com/FrederickFa/asset-based-portfolio-fire-risk-assessment")),
   br(),
   h4("Please feel free to reach out to", a("frederick.fabian@aol.com", href="mailto:frederick.fabian@aol.com"), "for questions and feedback."),
   br(),
