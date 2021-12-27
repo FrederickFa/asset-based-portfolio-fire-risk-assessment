@@ -1,0 +1,10 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.DS_STORE
+ **/.DS_STORE
+rsconnect/
+lei_company_data.csv
+lei_ownership_data.csv
+lei_isin.csv
