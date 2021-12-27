@@ -105,8 +105,10 @@ ald <- ald |>
 
 # save
 
-readr::write_csv(ald, fs::path("data", "ald", ext = "csv"))
+readr::write_csv(
+  ald, fs::path("data", "ald", ext = "csv")
+)
 
 
-rm(cement_ald, steel_ald, power_ald, ald)
+rm(cement_ald, steel_ald, power_ald, ald, temp)
 
