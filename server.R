@@ -275,7 +275,7 @@ server <- function(input, output, session) {
   # data table for exploration + downloading the data
   output$leafmaptable = DT::renderDataTable({
 
-    DTdatatable(
+    DT::datatable(
       ald_sub() |>
         sf::st_drop_geometry() |>
         dplyr::mutate(
