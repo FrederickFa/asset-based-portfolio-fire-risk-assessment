@@ -206,7 +206,12 @@ server <- function(input, output, session) {
       #   group = "Night Lights"
       # ) |>
       leaflet::addLayersControl(
-        baseGroups = c("OpenStreetMap", "Satellite", "Grey", "Night Lights"),
+        baseGroups = c(
+          "OpenStreetMap",
+          "Satellite",
+          "Grey"
+          #"Night Lights"
+        ),
         options = leaflet::layersControlOptions(collapsed = FALSE),
         position = "topleft"
       ) |>
