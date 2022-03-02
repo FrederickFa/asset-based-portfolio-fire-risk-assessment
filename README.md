@@ -1,6 +1,6 @@
 # Portfolio Assessment Tool for Fires (Open-Source & Near-Real-Time)
 
-The app can be found [online](https://frederickf.shinyapps.io/open-source-physical-risk-assessment-portfolio/).
+The app can be found [online](https://frederickf.shinyapps.io/asset-based-portfolio-fire-risk-assessment/).
 
 
 ## About
